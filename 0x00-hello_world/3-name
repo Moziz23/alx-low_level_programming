@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc "$C_FILE" -o
+gcc -o "$C_FILE"
