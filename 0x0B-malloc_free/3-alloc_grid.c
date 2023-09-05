@@ -42,5 +42,5 @@ int **alloc_grid(int width, int height)
 			mos[x][y] = 0;
 	}
 
-	return (mee);
+	return (mos);
 }
