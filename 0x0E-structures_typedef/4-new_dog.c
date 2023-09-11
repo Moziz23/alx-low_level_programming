@@ -29,10 +29,11 @@ char *_strcopy(char *dest, char *src)
 
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
-	dest[i] = '\0'
+	dest[i] = '\0';
 
 		return (dest);
 }
+
 
 /**
  * new_dog - a function that creates a new dog
@@ -69,7 +70,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	dog->name = _strcpy(dog->name, name);
+	dog->name = _strcopy(dog->name, name);
 	dog->age = age;
 	dog->owner = _strcopy(dog->owner, owner);
 
