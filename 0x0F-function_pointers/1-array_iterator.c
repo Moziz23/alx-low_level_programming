@@ -3,7 +3,7 @@
 /**
  * array_iterator - maps an array through a func pointer
  * @array: the int array
- * @size: the array size 
+ * @size: the array size
  * @action: function pointer
  * Return: void
  */
